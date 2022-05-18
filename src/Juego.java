@@ -7,7 +7,7 @@ package ende;
 
 public class Juego 
 {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         Jugador p1=new Jugador();
         Jugador p2=new Jugador();
@@ -98,11 +98,11 @@ class Jugador{
         }
         return opcion;
     }
-    public void setÉxitos() 
+    public void setÉxitos()
     {
         éxitos++;
     }
-    public int getÉxitos() 
+    public int getÉxitos()
     {
         return(éxitos);
     }
