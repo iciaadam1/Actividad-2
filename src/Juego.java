@@ -80,7 +80,7 @@ public class Juego
 class Jugador{
    
     /**
-     * Escoge piedra, papel o tijera al azar
+     * Escoge piedra,  papel o tijera al azar
      */
     public String opcion_al_azar()
     {
